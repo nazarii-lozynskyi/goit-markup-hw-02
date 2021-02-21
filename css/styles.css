@@ -1,0 +1,33 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+/* main text color #212121 */
+/* secondary color of the text #757575 */
+/* emphasis #2196F3 */
+/* wight color #FFFFFF */
+/* main color background #FFFFFF */
+/* secondary background color #2F303A */
+/* third color background #F5F4FA */
+.logo {
+  color: #212121;
+}
+.logo-web {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-contacts .contacts {
+  color: #757575;
+}
+.site-contacts .contacts:hover, 
+.site-contacts .contacts:focus{
+  color: #2196f3;
