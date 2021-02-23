@@ -1,7 +1,5 @@
-body {
-  background-color: #ffffff;
-  color: #212121;
-}
+/*INDEX.html styles*/
+
 /* priority text color #212121 */
 /* secondary color of the text #757575 */
 /* emphasis #2196F3 */
@@ -9,25 +7,85 @@ body {
 /* main color background #FFFFFF */
 /* secondary background color #2F303A */
 /* third color background #F5F4FA */
+
+
+:root{
+  --priority-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+  --wight-color: #ffffff;
+  --secondary-background-color: #2F303A;
+}
+
+body {
+  background-color: var(--wight-color);
+  color: var(--priority-text-color);
+  }
+
+/*LOGO*/
 .logo {
-  color: #212121;
+  color: var(--priority-text-color);
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+.logo-studio{
+  color: var(--wight-color);
+}
+
+/*HEDER*/
 .list {
   list-style: none;
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--priority-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-contacts .contacts {
-  color: #757575;
+  color: var(--title-text-color);
 }
 .site-contacts .contacts:hover, 
 .site-contacts .contacts:focus{
-  color: #2196f3;
+  color: var(--accent-color);
+
+/*HERO*/
+.hero-text{
+  color: var(--wight-color);
+}
+.hero-btn{
+  background-color: var(--accent-color);
+  color: var(--wight-color);
+}
+.hero{
+  background-color: var(--secondary-background-color);
+}
+
+/*OUR TEAM*/
+.team-profession{
+  color:var(--title-text-color);
+}
+.team{
+  background-color: #F5F4FA;
+}
+
+/*FEATURES*/
+.features-item{
+  color: var(--title-text-color);
+  }
+
+/*FOOTER*/
+footer{
+  background-color: var(--secondary-background-color);
+}
+
+/*ADDRESS*/
+.address-in-map{
+  color: var(--wight-color);
+}
+.tel,
+.mail{
+  color: rgba(255, 255, 255, 0.6);
+}
