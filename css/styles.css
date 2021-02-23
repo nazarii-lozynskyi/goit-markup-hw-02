@@ -15,6 +15,9 @@
   --accent-color: #2196F3;
   --wight-color: #ffffff;
   --secondary-background-color: #2F303A;
+  --team-background-color: #F5F4FA;
+  --address-color: rgba(255, 255, 255, 0.6);
+
 }
 
 body {
@@ -68,7 +71,7 @@ body {
   color:var(--title-text-color);
 }
 .team{
-  background-color: #F5F4FA;
+  background-color: var(--team-background-color);
 }
 
 /*FEATURES*/
@@ -87,5 +90,5 @@ footer{
 }
 .tel,
 .mail{
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-color);
 }
