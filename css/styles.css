@@ -21,6 +21,7 @@
 body {
   background-color: var(--wight-color);
   color: var(--priority-text-color);
+  font-family: "Roboto", sans-serif;
 }
 
 /*LOGO*/
@@ -42,7 +43,8 @@ body {
   color: var(--priority-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:active {
   color: var(--accent-color);
 }
 .site-contacts .contacts {
@@ -56,10 +58,13 @@ body {
 /*HERO*/
 .hero-text {
   color: var(--wight-color);
+  text-transform: uppercase;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   background-color: var(--accent-color);
   color: var(--wight-color);
+  cursor: pointer;
 }
 .hero {
   background-color: var(--secondary-background-color);
@@ -90,4 +95,29 @@ footer {
 .tel,
 .mail {
   color: var(--address-color);
+}
+
+/*PORTFOLIO.HTML*/
+
+/*FILTERS*/
+.filters-button {
+  color: var(--priority-text-color);
+  background-color: var(--team-background-color);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus,
+.filters-button:active,
+.filters-button:visited {
+  background-color: var(--accent-color);
+  color: var(--team-background-color);
+}
+/*PICTURES*/
+
+.pictures-title {
+  color: var(--priority-text-color);
+}
+.pictures-text {
+  color: var(--title-text-color);
 }
