@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -30,73 +31,73 @@
 <main>
 
 <!--FILTERS-->
-    <div>
+    <div class="filters">
         <ul>
             <li>
-                <button>Все</button>
+                <button type="button" class="filters-button">Все</button>
             </li>
             <li>
-                <button>Веб-сайты</button>
+                <button type="button" class="filters-button">Веб-сайты</button>
             </li>
             <li>
-                <button>Приложения</button>
+                <button type="button" class="filters-button">Приложения</button>
             </li>
             <li>
-                <button>Дизайн</button>
+                <button type="button" class="filters-button">Дизайн</button>
             </li>
             <li>
-                <button>Маркетинг</button>
+                <button type="button" class="filters-button">Маркетинг</button>
             </li>
         </ul>
     </div>
 
-<!--PORTFOLIO-->
-    <div>
+<!--PICTURES-->
+    <div class="pictures">
         <ul>
             <li>
-                <img src="./images/portfolio/web-sites/tehno.jpg" alt="">
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
+                <img src="./images/portfolio/web-sites/tehno.jpg" alt="Главная страница сайта Технокряк" width="370" height-="294">
+                <h2 class="pictures-title">Технокряк</h2>
+                <p class="pictures-text">Веб-сайт</p>
             </li>
             <li>
-                <img src="./images/portfolio/design/no-vs-gs.jpg" alt="">
-                <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                <p>Дизайн</p>
+                <img src="./images/portfolio/design/no-vs-gs.jpg" alt="Два баскетболиста" width="370" height-="294">
+                <h2 class="pictures-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                <p class="pictures-text">Дизайн</p>
             </li>
             <li>
-                <img src="./images/portfolio/applications/seafood.jpg" alt="">
-                <h2>Ресторан <span lang="en">Seafood</span></h2>
-                <p>Приложение</p>
+                <img src="./images/portfolio/applications/seafood.jpg" alt="Логотип ресторана Seafood" width="370" height-="294">
+                <h2 class="pictures-title">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="pictures-text">Приложение</p>
             </li>
             <li>
-                <img src="./images/portfolio/marketing/prime.jpg" alt="">
-                <h2>Проект <span lang="en">Prime</span></h2>
-                <p>Маркетинг</p>
+                <img src="./images/portfolio/marketing/prime.jpg" alt="Наушники" width="370" height-="294">
+                <h2 class="pictures-title">Проект <span lang="en">Prime</span></h2>
+                <p class="pictures-text">Маркетинг</p>
             </li>
             <li>
-                <img src="./images/portfolio/applications/boxes.jpg" alt="">
-                <h2>Проект <span lang="en">Boxes</span></h2>
-                <p>Приложение</p>
+                <img src="./images/portfolio/applications/boxes.jpg" alt="Две коробки:белая и коричневая" width="370" height-="294">
+                <h2 class="pictures-title">Проект <span lang="en">Boxes</span></h2>
+                <p class="pictures-text">Приложение</p>
             </li>
             <li>
-                <img src="./images/portfolio/web-sites/i-h-n-b.jpg" alt="">
-                <h2 lang="en">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
+                <img src="./images/portfolio/web-sites/i-h-n-b.jpg" alt="Главная страница сайта Inspiration has no Borders" width="370" height-="294">
+                <h2 lang="en" class="pictures-title">Inspiration has no Borders</h2>
+                <p class="pictures-text">Веб-сайт</p>
             </li>
             <li>
-                <img src="./images/portfolio/design/le.jpg" alt="">
-                <h2>Издание <span lang="en">Limited Edition</span></h2>
-                <p>Дизайн</p>
+                <img src="./images/portfolio/design/le.jpg" alt="Развертка книги" width="370" height-="294">
+                <h2 class="pictures-title">Издание <span lang="en">Limited Edition</span></h2>
+                <p class="pictures-text">Дизайн</p>
             </li>
             <li>
-                <img src="./images/portfolio/marketing/lab.jpg" alt="">
-                <h2>Проект <span lang="en">LAB</span></h2>
-                <p>Маркетинг</p>
+                <img src="./images/portfolio/marketing/lab.jpg" alt="Белая этикетка" width="370" height-="294">
+                <h2 class="pictures-title">Проект <span lang="en">LAB</span></h2>
+                <p class="pictures-text">Маркетинг</p>
             </li>
             <li>
-                <img src="./images/portfolio/applications/gb.jpg" alt="">
-                <h2 lang="en">Growing Business</h2>
-                <p>Приложение</p>
+                <img src="./images/portfolio/applications/gb.jpg" alt="Интерфейс приложения Growing Business" width="370" height-="294">
+                <h2 lang="en" class="pictures-title">Growing Business</h2>
+                <p class="pictures-text">Приложение</p>
             </li>
         </ul>
     </div>
@@ -110,7 +111,8 @@
     <!--Address-->
     <address class="address">
         <ul>
-            <li class="address-in-map">г. Киев, пр-т Леси Украинки, 26</li>
+            <li> <a href="https://goo.gl/maps/oQdtfQdhAtJSonEbA" class="address-in-map">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
             <li>
                 <a href="mailto:info@example.com" class="mail">info@example.com</a>
             </li>
