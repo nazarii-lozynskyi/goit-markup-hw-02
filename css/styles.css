@@ -173,7 +173,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--wight-color);
 }
 .address-mail,
 .address-tel {
@@ -181,8 +181,11 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-color);
 }
+/*==========END ADDRESS========*/
+/*==================END FOOTER===================*/
+/***************END INDEX.html styles*************/
 
 /*PORTFOLIO.html*/
 
