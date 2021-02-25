@@ -17,7 +17,7 @@
   --accent-color: #2196f3;
   --wight-color: #ffffff;
   --secondary-background-color: #2f303a;
-  --team-background-color: #f5f4fa;
+  --priority-background-color: #f5f4fa;
   --address-color: rgba(255, 255, 255, 0.6);
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -107,6 +107,7 @@ body {
   color: var(--wight-color);
 }
 .hero-btn {
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -139,7 +140,7 @@ body {
 
 /*================= OUR TEAM ====================*/
 .team {
-  background-color: var(--team-background-color);
+  background-color: var(--priority-background-color);
 }
 .team-members-name {
   font-weight: 500;
@@ -180,12 +181,18 @@ footer {
 /*================== END FOOTER ==================*/
 /*************** END INDEX.html styles ************/
 
-/*PORTFOLIO.html*/
+/*-------------------------------------------------*/
 
-/*FILTERS*/
+/************* PORTFOLIO.html styles *************/
+/*================ FILTERS =======================*/
 .filters-button {
+  font-family: var(--main-font);
   color: var(--priority-text-color);
-  background-color: var(--team-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.61;
+  letter-spacing: 0.03em;
+  background-color: var(--priority-background-color);
   cursor: pointer;
 }
 .filters-button:hover,
@@ -193,13 +200,24 @@ footer {
 .filters-button:active,
 .filters-button:visited {
   background-color: var(--accent-color);
-  color: var(--team-background-color);
+  color: var(--wight-color);
 }
-/*PICTURES*/
+/*================ END FILTERS ==================*/
+
+/*================== PICTURES ===================*/
 
 .pictures-title {
+  font-family: var(--main-font);
   color: var(--priority-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .pictures-text {
-  color: var(--title-text-color);
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
