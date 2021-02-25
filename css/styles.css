@@ -1,12 +1,5 @@
-/***************INDEX.html styles****************/
+/*************** INDEX.html styles ****************/
 
-/* priority text color #212121 */
-/* secondary color of the text #757575 */
-/* emphasis #2196F3 */
-/* wight color #FFFFFF */
-/* main color background #FFFFFF */
-/* secondary background color #2F303A */
-/* third color background #F5F4FA */
 .link {
   text-decoration: none;
 }
@@ -16,7 +9,8 @@
 .address {
   font-style: normal;
 }
-/*====================ROOT========================*/
+
+/*==================== ROOT =======================*/
 :root {
   --priority-text-color: #212121;
   --secondary-text-color: #757575;
@@ -28,17 +22,28 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
-/*====================END ROOT====================*/
+/*==================== END ROOT ===================*/
 
-/*====================BODY========================*/
+/*================== CONPONENTS ===================*/
+/*for "WHAT WE DO" and "OUR TEAM"*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*================== END CONPONENTS ===============*/
+
+/*==================== BODY =======================*/
 body {
   background-color: var(--wight-color);
   color: var(--priority-text-color);
   font-family: var(--main-font);
 }
-/*===================END BODY=====================*/
+/*=================== END BODY =====================*/
 
-/*=====================LOGO=======================*/
+/*===================== LOGO =======================*/
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -53,10 +58,10 @@ body {
 .logo-studio {
   color: var(--wight-color);
 }
-/*====================END LOGO====================*/
+/*==================== END LOGO ====================*/
 
-/*=====================HEDER======================*/
-/*====NAVIGATION====*/
+/*===================== HEDER ======================*/
+/*==== NAVIGATION ====*/
 .navigation {
   font-weight: 500;
   font-size: 14px;
@@ -71,9 +76,9 @@ body {
 .navigation-link:active {
   color: var(--accent-color);
 }
-/*====END NAVIGATION====*/
+/*==== END NAVIGATION ====*/
 
-/*====SITE CONTACTS====*/
+/*==== SITE CONTACTS ====*/
 .site-contacts .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -85,10 +90,10 @@ body {
 .site-contacts .contacts:focus {
   color: var(--accent-color);
 }
-/*==== END SITE CONTACTS====*/
-/*===================END HEDER===================*/
+/*==== END SITE CONTACTS ====*/
+/*=================== END HEDER ==================*/
 
-/*====================HERO=======================*/
+/*==================== HERO ======================*/
 .hero {
   background-color: var(--secondary-background-color);
 }
@@ -113,9 +118,9 @@ body {
   color: var(--wight-color);
   cursor: pointer;
 }
-/*===================END HERO===================*/
+/*=================== END HERO ===================*/
 
-/*==================FEATURES====================*/
+/*================== FEATURES ====================*/
 .feature-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -130,23 +135,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-/*=================END FEATURES================*/
+/*================= END FEATURES ================*/
 
-/*=================WHAT WE DO==================*/
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-/*===============END WHAT WE DO================*/
-
-/*=================OUR TEAM====================*/
+/*================= OUR TEAM ====================*/
 .team {
   background-color: var(--team-background-color);
-}
-.section-title {
 }
 .team-members-name {
   font-weight: 500;
@@ -161,13 +154,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-/*================END OUR TEAM=================*/
+/*================ END OUR TEAM =================*/
 
-/*==================FOOTER=====================*/
+/*================== FOOTER =====================*/
 footer {
   background-color: var(--secondary-background-color);
 }
-/*==========ADDRESS========*/
+/*========== ADDRESS ========*/
 .address-in-map {
   font-weight: 400;
   font-size: 14px;
@@ -183,9 +176,9 @@ footer {
   letter-spacing: 0.03em;
   color: var(--address-color);
 }
-/*==========END ADDRESS========*/
-/*==================END FOOTER===================*/
-/***************END INDEX.html styles*************/
+/*========== END ADDRESS ========*/
+/*================== END FOOTER ==================*/
+/*************** END INDEX.html styles ************/
 
 /*PORTFOLIO.html*/
 
