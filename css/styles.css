@@ -9,7 +9,6 @@
 .address {
   font-style: normal;
 }
-
 /*==================== ROOT =======================*/
 :root {
   --priority-text-color: #212121;
@@ -32,6 +31,10 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+/*for NAVIGATION-LINK*/
+.current {
+  color: var(--accent-color);
 }
 /*================== END CONPONENTS ===============*/
 
@@ -76,6 +79,7 @@ body {
 .navigation-link:active {
   color: var(--accent-color);
 }
+
 /*==== END NAVIGATION ====*/
 
 /*==== SITE CONTACTS ====*/
@@ -197,8 +201,7 @@ footer {
 }
 .filters-button:hover,
 .filters-button:focus,
-.filters-button:active,
-.filters-button:visited {
+.filters-button:active {
   background-color: var(--accent-color);
   color: var(--wight-color);
 }
