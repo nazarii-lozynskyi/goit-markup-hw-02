@@ -32,10 +32,6 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-/*for NAVIGATION-LINK*/
-.current {
-  color: var(--accent-color);
-}
 /*================== END CONPONENTS ===============*/
 
 /*==================== BODY =======================*/
@@ -79,7 +75,9 @@ body {
 .navigation-link:active {
   color: var(--accent-color);
 }
-
+.current {
+  color: var(--accent-color);
+}
 /*==== END NAVIGATION ====*/
 
 /*==== SITE CONTACTS ====*/
